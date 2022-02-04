@@ -1,0 +1,298 @@
+/* Reset code */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+.fix:before, .fix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+ul{
+    list-style: none;
+}
+.btn {
+    background-color: #010b09;
+    display: inline-block;
+}
+
+.btn a{
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+.btn a::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+    opacity: 30%;
+    right: 100%;
+    top: 0%;
+    transition: .2s;
+    z-index: -1;
+}
+.btn a:hover::before{
+    right: 0%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    width: 1000px;
+    margin: 0% auto;
+}
+
+/* Header Start here */
+header{}
+/* Navbar Start here */
+.menu-bar {
+    background-color: rgb(179, 179, 179);
+    width: 100%;
+    height: 89px;
+}
+.logo{
+    width: 300px;
+    float: left;
+    padding: 10px;
+    margin-right: 30px;
+}
+.logo a{}
+.logo a img{}
+.menu {
+    width: 670px;
+    float: right;
+}
+.menu ul {
+    text-align: right;
+}
+.menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.menu ul li:last-child{
+    margin-right: 0%;
+}
+.menu ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    margin-top: 23px;
+    font-size: 20px;
+    transition: .3s;
+}
+.menu ul li a:hover{
+    background-color: rgb(7, 197, 156);
+    color: black;
+}
+/* Navbar end */
+
+/* Banner start */
+.header-banner{}
+.banner{
+    width: 100%;
+    position: relative;
+
+}
+.banner img {
+    width: 100%;
+    height: 400px;
+    
+}
+.banner::before{
+    position: absolute;
+    content: "Welcome to Raw Graphics";
+    font-size: 27px;
+    font-weight: 700;
+    width: 350px;
+    color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+/* Banner end */
+
+/* Exclusiv Service start */
+.services {
+    width: 100%;
+    margin: 20px 0;
+}
+.exclusive-service {
+    margin: 35px 0;
+    text-align: center;
+    font-size: 24px;
+}
+.exclusive-service h2{}
+.service{}
+
+.single-service {
+    width: 317px;
+    padding: 10px 10px 25px 10px;
+    background-color: #00b893;
+    display: inline-block;
+    margin-right: 20px;
+    border: 2px solid white;
+    transition: .5s;
+}
+.single-service:hover{
+    transform: scale(1.1);
+}
+.single-service:last-child{
+    margin-right: 0%;
+}
+.single-service img{}
+
+.single-service h4 {
+    font-size: 18px;
+    padding: 10px 0;
+}
+.single-service p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+/* Exclusive Service end */
+
+/* Photo Gallery Start */
+.photo-gallery {
+    width: 100%;
+    margin: 20px 0;
+    padding: 40px 0;
+}
+.photo-gallery h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.single-photo {
+    width: 320px;
+    height: 300px;
+    margin: 20px 20px 5px 0;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px gray;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.single-photo::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 50%;
+    left: 0%;
+    top: 100%;
+    transition: .5s;
+}
+.single-photo:hover::before{
+    top: 0%;
+}
+.photo-details{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    right: 100%;
+    top: 0%;
+    transition: .7s;
+}
+.single-photo:hover .photo-details{
+    right: 0%;
+}
+.photo-details h4{
+    font-size: 20px;
+}
+.single-photo:nth-child(4), .single-photo:nth-child(7), .single-photo:nth-child(10){
+    margin-right: 0%;
+}
+.single-photo img {
+    width: 100%;
+    height: 300px;
+}
+
+/* Photo Gallery End */
+
+
+/* About with menu start */
+
+/*----------------------------
+-------- About -----------------*/
+.about-menu {
+    margin-bottom: 20px;
+    padding: 40px 0;
+    width: 100%;
+    height: 450px;
+}
+.about {
+    float: left;
+    width: 675px;
+}
+.about h4, .sidebar-menu h4 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.about p{
+    margin-bottom: 15px;
+}
+.about a{}
+
+/*-------------------------
+----------- Sidebar Menu -----------------*/
+.sidebar-menu {
+    float: left;
+    width: 250px;
+    margin-left: 75px;
+}
+.sidebar-menu ul {
+    padding-bottom: 20px;
+}
+.sidebar-menu ul li{
+}
+.sidebar-menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    display: block;
+    padding: 8px 0;
+    border-bottom: 1px solid gray;
+}
+.sidebar-menu ul li a:hover{
+    color: tomato;
+}
+
+
+/* About with menu end */
+
+/* Footer Start here */
+.footer {
+    margin-top: 20px;
+    background-color: #00b893;
+    width: 100%;
+}
+.footer p {
+    text-align: center;
+    font-weight: 600;
+    padding: 30px 0;
+}
