@@ -340,3 +340,56 @@ header{}
     z-index: 2;
 }
 
+/* Contact us */
+.contact-address {
+    width: 100%;
+    margin: 30px 0;
+    padding: 20px 0;
+}
+.contact-address h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: serif;
+    padding-bottom: 25px;
+}
+/* contact form */
+.form {
+    width: 650px;
+    float: left;
+    margin-right: 10px;
+}
+.form h4, .address h4 {
+    padding: 20px 0;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.form input {
+    width: 100%;
+    padding: 10px 10px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+}
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+}
+/* Address */
+.address {
+    width: 280px;
+    float: right;
+}
+.address ul {
+    padding: 15px 0;
+}
+.address ul li {
+    padding: 10px 0;
+    font-size: 20px;
+    border-bottom: 1px solid gray;
+}
+.span {
+    font-weight: bold;
+    font-style: italic;
+}
+
+
