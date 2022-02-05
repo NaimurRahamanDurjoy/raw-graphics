@@ -312,13 +312,13 @@ header{}
 
 /*------------------------------- 
 --------------About us ----------------------*/
-.page-banner {
+.page-banner,.our-services {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
 }
-.page-banner:before {
+.page-banner:before, .our-services::before {
     position: absolute;
     content: "";
     width: 100%;
@@ -329,7 +329,7 @@ header{}
     opacity: 30%;
     z-index: -1;
 }
-.page-banner h2 {
+.page-banner h2, .our-services h2 {
     text-align: center;
     color: white;
     font-size: 50px;
