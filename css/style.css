@@ -261,23 +261,33 @@ header{}
 /*-------------------------
 ----------- Sidebar Menu -----------------*/
 .sidebar-menu {
-    float: left;
+    float: right;
     width: 250px;
     margin-left: 75px;
 }
 .sidebar-menu ul {
     padding-bottom: 20px;
 }
-.sidebar-menu ul li{
+.sidebar-menu ul li {
+    margin-bottom: 20px;
+    background-image: url('../images/arrow.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    border-bottom: 1px solid gray;
+}
+.sidebar-menu ul li:last-child{
+    border: none;
 }
 .sidebar-menu ul li a {
     text-decoration: none;
     color: black;
-    font-size: 16px;
+    font-size: 20px;
     display: block;
-    padding: 8px 0;
-    border-bottom: 1px solid gray;
+    padding: 8px 0 0 30px;
+    
 }
+
 .sidebar-menu ul li a:hover{
     color: tomato;
 }
