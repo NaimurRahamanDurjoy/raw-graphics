@@ -117,12 +117,14 @@ header{}
     height: 400px;
     
 }
-.banner::before{
+.banner::before {
     position: absolute;
     content: "Welcome to Raw Graphics";
-    font-size: 27px;
+    text-transform: capitalize;
+    font-size: 50px;
     font-weight: 700;
-    width: 350px;
+    font-family: cursive;
+    width: 640px;
     color: white;
     left: 50%;
     top: 50%;
@@ -144,11 +146,12 @@ header{}
 .service{}
 
 .single-service {
-    width: 317px;
-    padding: 10px 10px 25px 10px;
+    width: 310px;
+    padding: 10px 10px 10px 10px;
     background-color: #00b893;
     display: inline-block;
     margin-right: 20px;
+    margin-bottom: 20px;
     border: 2px solid white;
     transition: .5s;
 }
