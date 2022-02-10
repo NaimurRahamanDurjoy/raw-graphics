@@ -53,15 +53,23 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     line-height: 22px;
-    width: 1000px;
+}
+.area{
+    
+    width: 1200px;
     margin: 0% auto;
+
+}
+.header-area{
+    background-color: #ddd;
 }
 
+
 /* Header Start here */
-header{}
+
 /* Navbar Start here */
 .menu-bar {
-    background-color: rgb(179, 179, 179);
+    background-color: #ddd;
     width: 100%;
     height: 89px;
     position: sticky;
@@ -71,7 +79,7 @@ header{}
 .logo{
     width: 300px;
     float: left;
-    padding: 10px;
+    padding: 10px 0;
     margin-right: 30px;
 }
 .logo a{}
@@ -106,6 +114,10 @@ header{}
 /* Navbar end */
 
 /* Banner start */
+.banner-area{
+    background-color: antiquewhite;
+    height: 405px;
+}
 .header-banner{}
 .banner{
     width: 100%;
@@ -133,6 +145,12 @@ header{}
 /* Banner end */
 
 /* Exclusiv Service start */
+.service-area{
+    background-image: url('../images/p-7.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 .services {
     width: 100%;
     margin: 40px 0;
@@ -141,16 +159,17 @@ header{}
     margin: 35px 0;
     text-align: center;
     font-size: 24px;
+    color: white;
 }
 .exclusive-service h2{}
 .service{}
 
 .single-service {
-    width: 310px;
+    width: 344px;
     padding: 10px 10px 10px 10px;
     background-color: #00b893;
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 80px;
     margin-bottom: 20px;
     border: 2px solid white;
     transition: .5s;
@@ -158,7 +177,7 @@ header{}
 .single-service:hover{
     transform: scale(1.1);
 }
-.single-service:last-child{
+.single-service:nth-child(3), .single-service:nth-child(6){
     margin-right: 0%;
 }
 .single-service img{}
@@ -174,6 +193,12 @@ header{}
 /* Exclusive Service end */
 
 /* Photo Gallery Start */
+.photo-area{
+    background-image: url('../images/p-9.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 .photo-gallery {
     width: 100%;
     margin: 20px 0;
@@ -181,13 +206,14 @@ header{}
 }
 .photo-gallery h2 {
     text-align: center;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
+    color: white;
 }
 .single-photo {
-    width: 320px;
+    width: 340px;
     height: 300px;
-    margin: 20px 20px 5px 0;
+    margin: 20px 90px 5px 0;
     border-radius: 8px;
     box-shadow: 2px 2px 5px gray;
     float: left;
@@ -252,7 +278,7 @@ header{}
 }
 .about {
     float: left;
-    width: 675px;
+    width: 680px;
 }
 .about h4, .sidebar-menu h4 {
     margin-bottom: 15px;
@@ -268,7 +294,7 @@ header{}
 ----------- Sidebar Menu -----------------*/
 .sidebar-menu {
     float: right;
-    width: 250px;
+    width: 440px;
     margin-left: 75px;
 }
 .sidebar-menu ul {
@@ -336,11 +362,14 @@ header{}
     text-align: center;
     color: white;
     font-size: 50px;
-    padding: 150px 0;
+    padding: 191px 0;
     z-index: 2;
 }
 
 /* Contact us */
+.contact-area{
+    background-color: floralwhite;
+}
 .contact-address {
     width: 100%;
     margin: 30px 0;
@@ -354,7 +383,7 @@ header{}
 }
 /* contact form */
 .form {
-    width: 650px;
+    width: 670px;
     float: left;
     margin-right: 10px;
 }
@@ -376,7 +405,7 @@ textarea {
 }
 /* Address */
 .address {
-    width: 280px;
+    width: 400px;
     float: right;
 }
 .address ul {

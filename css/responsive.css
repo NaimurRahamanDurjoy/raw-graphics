@@ -1,0 +1,91 @@
+@media only screen and (min-width: 600px) and (max-width: 750px){
+    .header-area {
+        width: 100%;
+        background-color: teal;
+    }
+    .area {
+        width: 650px;
+    }
+    .logo {
+        width: 220px;
+    }
+    .menu {
+        width: 400px;
+    }
+    .menu ul li {
+        margin-right: 0;
+    }
+    .menu ul li a {
+        padding: 10px 5px;
+        margin-top: 23px;
+        font-size: 18px;
+    }
+     /* Banner area */
+     .banner-area {
+        background-color: orangered;
+        width: 100%;
+    }
+    .banner::before {
+        font-size: 40px;
+        width: 511px;
+    }
+    .banner img {
+        height: 405px;
+    }
+    /* Service area */
+    .service-area {
+        width: 100%;
+    }
+    .single-service {
+        width: 200px;
+        background-color: cornflowerblue;
+        margin-right: 20px;
+    }
+    .btn {
+        background-color: darkslategray;
+    }
+    /* Photo area */
+    .photo-area {
+        width: 100%;
+    }
+    .single-photo {
+        width: 203px;
+        height: 268px;
+        margin: 20px 20px 5px 0;
+    }
+    .single-photo img {
+        height: 100%;
+    }
+    /* About */
+    .about-area{
+        width: 100%;
+    }
+    .about {
+        width: 400px;
+    }
+    .sidebar-menu {
+        width: 230px;
+        margin-left: 20px;
+    }
+    /* Contact area */
+    .contact-area{
+        width: 100%;
+        background-color: burlywood;
+    }
+    .form {
+        width: 350px;
+    }
+    .address {
+        width: 234px;
+    }
+    /* Footer */
+    .footer {
+        background-color: cadetblue;
+    }
+
+
+
+
+
+    
+}

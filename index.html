@@ -8,38 +8,45 @@
     <title>Home | Random Project</title>
     <!-- Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive css -->
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
-    <!-- header start here -->
-    <header>
-        <div class="menu-bar">
-            <div class="logo">
-                <a href="">
-                    <img src="images/logo.png" alt="Logo">
-                </a>
+    <div class="header-area">
+        <!-- header start here -->
+        <header class="area">
+            <div class="menu-bar">
+                <div class="logo">
+                    <a href="">
+                        <img src="images/logo.png" alt="Logo">
+                    </a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="header-banner">
+        </header>
+
+    </div>
+    <!-- Top Banner area -->
+    <div class="banner-area">
+        <div class="header-banner area">
             <div class="banner">
                 <img src="images/banner.jpg" alt="">
             </div>
         </div>
+    </div>
 
-
-        <!-- header end -->
-
-        <!-- main start here -->
-        <main>
+    <!-- Services area -->
+    <div class="service-area">
+        <div class="area">
             <!-- Exclusive service  -->
             <div class="services fix" id="services">
                 <div class="exclusive-service">
@@ -82,7 +89,11 @@
                 </div>
             </div>
             <!-- Exclusive service end -->
+        </div>
+    </div>
 
+    <div class="photo-area">
+        <div class="area">
             <!-- Photo Gallery Start -->
             <div class="photo-gallery fix" id="gallery">
                 <h2>Photo Gallery</h2>
@@ -115,7 +126,11 @@
                 </div>
             </div>
             <!-- Photo Gallery End -->
+        </div>
+    </div>
 
+    <div class="about-area">
+        <div class="area">
             <!-- About with menu Start-->
             <div class="about-menu" id="about">
                 <!-- About start here -->
@@ -147,11 +162,45 @@
                 </div>
             </div>
             <!-- About with menu End-->
+        </div>
+    </div>
 
-        </main>
-        <!-- main end -->
+    <div class="contact-area">
+        <div class="area">
+            <!-- Contact us start here -->
+            <div class="contact-address fix">
+                <h2>Contact Us</h2>
+                <!-- Contact -->
+                <div class="form">
+                    <h4>Get in touch</h4>
+                    <p>Name: </p>
+                    <input type="text" placeholder="Your Name">
+                    <p>Email: </p>
+                    <input type="email" placeholder="Your Email">
+                    <p>Password: </p>
+                    <input type="password" placeholder="Your Password">
+                    <p>Write your comment here: </p>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+                    <div class="btn">
+                        <a href="">Send</a>
+                    </div>
+                </div>
+                <!-- Address -->
+                <div class="address">
+                    <h4>Our Address</h4>
+                    <ul>
+                        <li><span class="span">Address:</span> Dhanmondi, Sankar, Dhaka-1209</li>
+                        <li><span class="span">Email:</span> simpleproject@gmail.com</li>
+                        <li><span class="span">Phone:</span> 002112333</li>
+                        <li><span class="span">Web:</span> rawgraphics.com</li>
+                    </ul>
 
-    </header>
+                </div>
+            </div>
+            <!-- Contact us End -->
+        </div>
+    </div>
+
 
     <!-- footer start here -->
     <footer>
